@@ -4,6 +4,7 @@ import api from "../api/axios";
 const ProblemStatements = () => {
   const [problemStatements, setProblemStatements] = useState([]);
   const [loading, setLoading] = useState(true);
+  setProblemStatements(problemStatements);
 
   useEffect(() => {
     fetchProblemStatements();
