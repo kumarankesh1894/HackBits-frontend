@@ -25,7 +25,7 @@ const ProblemStatements = () => {
     "AI & Machine Learning": [
       "AI-Powered Learning Management System",
       "Mental Health Support Chatbot",
-      "lad chatti",
+      
     ],
     "Blockchain & Web3": ["Blockchain-based Certificate Verification"],
     "IoT & Hardware": [
