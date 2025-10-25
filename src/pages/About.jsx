@@ -190,7 +190,7 @@ const About = () => {
                 key={index}
                 className="card text-center hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="mb-4">
+                {/* <div className="mb-4">
                   <span
                     className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${
                       sponsor.tier === "Platinum"
@@ -204,7 +204,7 @@ const About = () => {
                   >
                     {sponsor.tier} Sponsor
                   </span>
-                </div>
+                </div> */}
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   {sponsor.name}
                 </h3>
