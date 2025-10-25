@@ -3,7 +3,7 @@ import { useAuth } from "../contexts/AuthContext";
 import api from "../api/axios";
 
 const TeamDetails = () => {
-  const { user } = useAuth();
+  // const { user } = useAuth();
   const [team, setTeam] = useState(null);
   const [loading, setLoading] = useState(true);
   const [paymentScreenshot, setPaymentScreenshot] = useState(null);
