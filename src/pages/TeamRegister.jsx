@@ -22,7 +22,7 @@ const TeamRegister = () => {
   useEffect(() => {
     fetchProblemStatements();
     checkExistingTeam();
-  }, [checkingTeam]);
+  }, []);
 
   const checkExistingTeam = async () => {
     try {
