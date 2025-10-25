@@ -75,7 +75,7 @@ const Sponsors = () => {
         </div>
 
         {/* Sponsor Tiers */}
-        <div className="mb-16">
+        {/* <div className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
             Sponsor Tiers
           </h2>
@@ -95,7 +95,7 @@ const Sponsors = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Sponsors Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -106,7 +106,7 @@ const Sponsors = () => {
             >
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">{sponsor.logo}</div>
-                <div className="mb-2">
+                {/* <div className="mb-2">
                   <span
                     className={`inline-block px-3 py-1 rounded-full text-sm font-medium border ${getTierColor(
                       sponsor.tier
@@ -114,7 +114,7 @@ const Sponsors = () => {
                   >
                     {sponsor.tier} Sponsor
                   </span>
-                </div>
+                </div> */}
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {sponsor.name}
                 </h3>
@@ -123,7 +123,7 @@ const Sponsors = () => {
                 </p>
               </div>
 
-              <div className="border-t border-gray-200 pt-4">
+              {/* <div className="border-t border-gray-200 pt-4">
                 <h4 className="text-sm font-semibold text-gray-900 mb-3">
                   Benefits for Participants:
                 </h4>
@@ -138,7 +138,7 @@ const Sponsors = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
